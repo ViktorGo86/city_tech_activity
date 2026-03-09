@@ -229,7 +229,7 @@ fetchDataAndProcess('https://viktorgo86.github.io/host_api/city_tech_activity.js
                        + '<br>Не подлежит контролю (3): <b>' + numberWithSpaces(this.val_no_kontrol)+ '</b>'
                        +'<br>Иные статусы (4): <b>' +this.val_in_status+ '</b>'
                        +'<br>Всего, ед.(во всех статусах): <b>' +this.val_technik+ '</b>'
-                       +'<br>Доля от числа исправной: <b>' +this.val_ratio+ '</b>'
+                       +'<br>Доля от числа исправной: <b>' +this.val_ratio+ '%</b>'
                        +'</div>'
                        ;
                     }
