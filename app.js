@@ -133,7 +133,7 @@ fetchDataAndProcess('https://viktorgo86.github.io/host_api/city_tech_activity.js
                 },
                 exporting: false,
                 title: {
-                    text: 'Статистика по выходу техники, внесенной в АСУ ОДС на 18.02.2026',
+                    text: 'Статистика по выходу техники, внесенной в АСУ ОДС на 17.02.2026',
                     style: {
                         fontSize: '1em'
                     }

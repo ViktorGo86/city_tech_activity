@@ -258,10 +258,32 @@ fetchDataAndProcess('https://viktorgo86.github.io/host_api/city_tech_activity.js
                     `;
                   }
                 },*/
- 
+                
                 plotOptions: {
                     series: {
+
+                        cursor: 'pointer',
+
+                        point: {
+                            events: {
+                                click: function () {
+
+                                    const okrug = this.okrug_cd;
+
+                                    console.log("Выбран округ:", okrug);
+
+                                    // переход на страницу администраций
+                                    window.location.href = `admin.html?okrug_cd=${encodeURIComponent(okrug)}`;
+
+                                }
+                            }
+                        },
+
                         dataLabels: {
+ 
+             /*   plotOptions: {
+                    series: {
+                        dataLabels: {*/
                             useHTML: true,
                             enabled: true,
                             //format: '{point.hint}<br>{point.val_mpi_cpzl}',
